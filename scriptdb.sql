@@ -1,5 +1,4 @@
-createdb test_bd
-psql -U intern -d test_bd
+CREATE DATABASE test_bd OWNER intern;
 CREATE TABLE products (
     products_id serial,
     brand varchar(50),
